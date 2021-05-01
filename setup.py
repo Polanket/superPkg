@@ -13,5 +13,5 @@ setup(name='superPkg',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/superPkg-run'],
+      scripts=['scripts/superPkg-run', 'scripts/superPkg-dazzle'],
       zip_safe=False)
